@@ -17,6 +17,11 @@ import EventBindOne from './5.event-handling/EventBindOne';
 import EventBindThree from './5.event-handling/EventBindThree';
 import EventBindTwo from './5.event-handling/EventBindTwo';
 import FunctionClick from './5.event-handling/FunctionClick';
+import Parent from './5.event-handling/parent-child/Parent';
+import UserGreetigThree from './6.conditional-rendering/UserGreetigThree';
+import UserGreetingFour from './6.conditional-rendering/UserGreetingFour';
+import UserGreetingOne from './6.conditional-rendering/UserGreetingOne';
+import UserGreetingTwo from './6.conditional-rendering/UserGreetingTwo';
 
 // function Home(){
 //   return <h1>This is Home Component</h1>
@@ -31,10 +36,15 @@ const Data = () => <h1>This is Data Component</h1>
 function App() {
   return (
     <div className="container">
-      <EventBindOne /> <br />
+      <UserGreetingOne />
+      <UserGreetingTwo />
+      <UserGreetigThree />
+      <UserGreetingFour />
+      {/* <Parent /> */}
+      {/* <EventBindOne /> <br />
       <EventBindTwo /> <br /> 
       <EventBindThree /><br />
-      <EventBindFour /><br />
+      <EventBindFour /><br /> */}
       {/* <ClassClick />
       {/* <FunctionClick /> */}
       {/* <Person /> */}
