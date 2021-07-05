@@ -5,41 +5,51 @@
 // import Functional from './1.components/1.functional/Functional';
 // import FunctionalOne from './1.components/1.functional/FunctionalOne';
 // import Welcome from './1.components/2.class/Welcome';
-import Hello from './2.jsx/Hello';
-import Greeting from './3.props/Greeting';
-import Welcome from './3.props/Welcome';
-import Counter from './4.state/Counter';
-import Message from './4.state/Message';
-import Person from './4.state/Person';
-import ClassClick from './5.event-handling/ClassClick';
-import EventBindFour from './5.event-handling/EventBindFour';
-import EventBindOne from './5.event-handling/EventBindOne';
-import EventBindThree from './5.event-handling/EventBindThree';
-import EventBindTwo from './5.event-handling/EventBindTwo';
-import FunctionClick from './5.event-handling/FunctionClick';
-import Parent from './5.event-handling/parent-child/Parent';
-import UserGreetigThree from './6.conditional-rendering/UserGreetigThree';
-import UserGreetingFour from './6.conditional-rendering/UserGreetingFour';
-import UserGreetingOne from './6.conditional-rendering/UserGreetingOne';
-import UserGreetingTwo from './6.conditional-rendering/UserGreetingTwo';
+// import Hello from './2.jsx/Hello';
+// import Greeting from './3.props/Greeting';
+// import Welcome from './3.props/Welcome';
+// import Counter from './4.state/Counter';
+// import Message from './4.state/Message';
+// import Person from './4.state/Person';
+// import ClassClick from './5.event-handling/ClassClick';
+// import EventBindFour from './5.event-handling/EventBindFour';
+// import EventBindOne from './5.event-handling/EventBindOne';
+// import EventBindThree from './5.event-handling/EventBindThree';
+// import EventBindTwo from './5.event-handling/EventBindTwo';
+// import FunctionClick from './5.event-handling/FunctionClick';
+// import Parent from './5.event-handling/parent-child/Parent';
+// import UserGreetigThree from './6.conditional-rendering/UserGreetigThree';
+// import UserGreetingFour from './6.conditional-rendering/UserGreetingFour';
+// import UserGreetingOne from './6.conditional-rendering/UserGreetingOne';
+// import UserGreetingTwo from './6.conditional-rendering/UserGreetingTwo';
+import NameListFive from './7.list-rendering/NameListFive';
+import NameListFour from './7.list-rendering/NameListFour';
+import NameListOne from './7.list-rendering/NameListOne';
+import NameListThree from './7.list-rendering/NameListThree';
+import NameListTwo from './7.list-rendering/NameListTwo';
 
 // function Home(){
 //   return <h1>This is Home Component</h1>
 // }
 
-const Home = () => <h1>This is Home Component</h1>
-const About = () => <h1>This is About Component</h1>
-const Contact = () => <h1>This is Contact Component</h1>
-const Data = () => <h1>This is Data Component</h1>
+// const Home = () => <h1>This is Home Component</h1>
+// const About = () => <h1>This is About Component</h1>
+// const Contact = () => <h1>This is Contact Component</h1>
+// const Data = () => <h1>This is Data Component</h1>
 
 
 function App() {
   return (
     <div className="container">
-      <UserGreetingOne />
+      <NameListFive />
+      {/* <NameListOne /> <br />
+      <NameListTwo /> <br />
+      <NameListThree /> <br />
+      <NameListFour /> */}
+      {/* <UserGreetingOne />
       <UserGreetingTwo />
       <UserGreetigThree />
-      <UserGreetingFour />
+      <UserGreetingFour /> */}
       {/* <Parent /> */}
       {/* <EventBindOne /> <br />
       <EventBindTwo /> <br /> 
