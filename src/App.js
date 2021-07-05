@@ -27,6 +27,13 @@ import NameListFour from './7.list-rendering/NameListFour';
 import NameListOne from './7.list-rendering/NameListOne';
 import NameListThree from './7.list-rendering/NameListThree';
 import NameListTwo from './7.list-rendering/NameListTwo';
+import AppStyle from './8.styling/AppStyle';
+import AppStyleOne from './8.styling/AppStyleOne';
+import Inline from './8.styling/Inline';
+import Stylesheet from './8.styling/Stylesheet';
+
+import './8.styling/appStyles.css'
+import Styles from './8.styling/appStyles.module.css'
 
 // function Home(){
 //   return <h1>This is Home Component</h1>
@@ -41,7 +48,11 @@ import NameListTwo from './7.list-rendering/NameListTwo';
 function App() {
   return (
     <div className="container">
-      <NameListFive />
+      <Stylesheet />
+      <Inline />
+      <AppStyle />
+      <AppStyleOne />
+      {/* <NameListFive /> */}
       {/* <NameListOne /> <br />
       <NameListTwo /> <br />
       <NameListThree /> <br />
