@@ -22,19 +22,20 @@
 // import UserGreetingFour from './6.conditional-rendering/UserGreetingFour';
 // import UserGreetingOne from './6.conditional-rendering/UserGreetingOne';
 // import UserGreetingTwo from './6.conditional-rendering/UserGreetingTwo';
-import NameListFive from './7.list-rendering/NameListFive';
-import NameListFour from './7.list-rendering/NameListFour';
-import NameListOne from './7.list-rendering/NameListOne';
-import NameListThree from './7.list-rendering/NameListThree';
-import NameListTwo from './7.list-rendering/NameListTwo';
-import AppStyle from './8.styling/AppStyle';
-import AppStyleOne from './8.styling/AppStyleOne';
-import Inline from './8.styling/Inline';
-import Stylesheet from './8.styling/Stylesheet';
+// import NameListFive from './7.list-rendering/NameListFive';
+// import NameListFour from './7.list-rendering/NameListFour';
+// import NameListOne from './7.list-rendering/NameListOne';
+// import NameListThree from './7.list-rendering/NameListThree';
+// import NameListTwo from './7.list-rendering/NameListTwo';
+// import AppStyle from './8.styling/AppStyle';
+// import AppStyleOne from './8.styling/AppStyleOne';
+// import Inline from './8.styling/Inline';
+// import Stylesheet from './8.styling/Stylesheet';
 
 // import './8.styling/appStyles.css'
 // import Styles from './8.styling/appStyles.module.css'
-import Form from './9.form-data/Form';
+// import Form from './9.form-data/Form';
+import FormOne from './9.form-data/FormOne';
 
 // function Home(){
 //   return <h1>This is Home Component</h1>
@@ -49,7 +50,8 @@ import Form from './9.form-data/Form';
 function App() {
   return (
     <div className="container">
-      <Form />
+      <FormOne />
+      {/* <Form /> */}
       {/* <Stylesheet />
       <Inline />
       <AppStyle />
