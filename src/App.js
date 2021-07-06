@@ -35,7 +35,9 @@
 // import './8.styling/appStyles.css'
 // import Styles from './8.styling/appStyles.module.css'
 // import Form from './9.form-data/Form';
-import FormOne from './9.form-data/FormOne';
+// import LifeCycleA from './10.life-cycle-methods/LifeCycleA';
+import Fetch from './11.ajax-calls/Fetch';
+// import FormOne from './9.form-data/FormOne';
 
 // function Home(){
 //   return <h1>This is Home Component</h1>
@@ -50,7 +52,9 @@ import FormOne from './9.form-data/FormOne';
 function App() {
   return (
     <div className="container">
-      <FormOne />
+      <Fetch />
+      {/* <LifeCycleA /> */}
+      {/* <FormOne /> */}
       {/* <Form /> */}
       {/* <Stylesheet />
       <Inline />

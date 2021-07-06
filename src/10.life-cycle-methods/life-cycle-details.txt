@@ -1,0 +1,68 @@
+Life Cycle Methods
+-------------------
+When we create a react component that component goes thorugh several stages
+in its life Cycle
+
+* Life Cycle methods doesn't exists on a function component
+
+* Life Cycle methods only available on class components
+
+Mouting 
+--------
+When an instance of a component is being created and inserted into the DOM
+
+1. constructor 
+    - a special function that will get called whenever a new compoenent is created
+    - if you want to initialize state
+    - Binding the event-handler
+    - Never use constructor for HTTP request (Ajax calls)
+
+Notes :
+-------
+1. we have to call special function 'super' this will call the base constructor
+2. constructor is only place where we can change or set the state directly by 
+    writing /overwriting the state fields
+
+
+2. static getDerivedStateFromProps
+
+  - When the state of the component depends on changes in props over time 
+  - as this is a static method we can't use 'this' keyword
+  - Never use this method for HTTP request (Ajax calls)
+
+3. render
+
+   - only required(mandatory) method in our Component 
+   - we can simply read or porps & state and return JSX
+   - Don't change the state or interact with DOM or make Ajax calls
+   - Right after parent render method, children component lifecycle methods are also executed
+
+4. componentDidMount ( Mounting - Being inserted into DOM)
+
+   - Invoked immediately after a compoent and all its children compoenents have been 
+     rendered to DOM 
+   - We can interact with DOM or perform Ajax calls (HTTP request) to load data
+
+
+Updating
+-----------
+When a compoenent is being re-rendered  changes to will be made to eithr props or state
+
+1. static getDerivedStateFromProps
+2. shouldCompoentUpdate
+3. render
+4. getSnapShorBeforeUpdate
+5. compoentDidUpdate
+
+Unmouting
+-----------
+When compoent is being removed from the DOM 
+
+1. compoentWillUnMount
+
+Error Handling
+---------------
+When there is an error during rendering, in a life cycle method or in the constructor
+
+1. static getDerivedFromError
+2. compoenentDidCatch
