@@ -37,6 +37,7 @@
 // import Form from './9.form-data/Form';
 // import LifeCycleA from './10.life-cycle-methods/LifeCycleA';
 import Fetch from './11.ajax-calls/Fetch';
+import Student from './11.ajax-calls/Student';
 // import FormOne from './9.form-data/FormOne';
 
 // function Home(){
@@ -52,7 +53,8 @@ import Fetch from './11.ajax-calls/Fetch';
 function App() {
   return (
     <div className="container">
-      <Fetch />
+      <Student />
+      {/* <Fetch /> */}
       {/* <LifeCycleA /> */}
       {/* <FormOne /> */}
       {/* <Form /> */}
