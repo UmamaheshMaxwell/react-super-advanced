@@ -11,8 +11,11 @@ function Stylesheet() {
         //     <StylesheetTwo primary="primary-1"/>
         // </React.Fragment>
         <React.Fragment>
-            <h2 className={`${colorName} enlarge-text`}> Using Stylesheets</h2>
+            <h2 className={`primary enlarge-text`}> Using Stylesheets</h2>
         </React.Fragment>
+        // <React.Fragment>
+        //     <h2 className={`${colorName} enlarge-text`}> Using Stylesheets</h2>
+        // </React.Fragment>
     )
 }
 

@@ -32,8 +32,9 @@ import AppStyleOne from './8.styling/AppStyleOne';
 import Inline from './8.styling/Inline';
 import Stylesheet from './8.styling/Stylesheet';
 
-import './8.styling/appStyles.css'
-import Styles from './8.styling/appStyles.module.css'
+// import './8.styling/appStyles.css'
+// import Styles from './8.styling/appStyles.module.css'
+import Form from './9.form-data/Form';
 
 // function Home(){
 //   return <h1>This is Home Component</h1>
@@ -48,10 +49,11 @@ import Styles from './8.styling/appStyles.module.css'
 function App() {
   return (
     <div className="container">
-      <Stylesheet />
+      <Form />
+      {/* <Stylesheet />
       <Inline />
       <AppStyle />
-      <AppStyleOne />
+      <AppStyleOne /> */}
       {/* <NameListFive /> */}
       {/* <NameListOne /> <br />
       <NameListTwo /> <br />

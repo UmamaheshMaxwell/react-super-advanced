@@ -1,10 +1,11 @@
 import React from 'react'
+// import Styles from './appStyles.module.css'
 
 function AppStyleOne() {
     return (
         <div>
-            <h1 className="error">Error</h1>
-            {/* <h1 className={Styles.success}>Success</h1> */}
+            <h1>Error</h1>
+            {/*<h2 className={Styles.success}>Success</h2> */}
         </div>
     )
 }

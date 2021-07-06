@@ -5,3 +5,7 @@
 .enlarge-text {
     font-size: 75px;
 }
+
+p {
+    background-color: crimson;
+}
